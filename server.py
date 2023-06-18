@@ -23,3 +23,7 @@ def frenchToEnglish():
     translated = translator.french_to_english(textToTranslate)
 
     return "Translated text to English: " + translated
+
+
+if __name__ == "__main__":
+    app.run()
